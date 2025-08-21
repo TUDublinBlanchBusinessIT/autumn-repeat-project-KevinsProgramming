@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "GymMembership";
+$dbname = "ContactList";
 $port = 3307;
 
 date_default_timezone_set('Europe/Dublin');
