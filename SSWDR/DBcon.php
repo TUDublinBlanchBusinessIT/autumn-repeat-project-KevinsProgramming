@@ -1,13 +1,10 @@
 <?php
-$servername = "localhost";
+$servername = "localhost:3307";
 $username = "root";
 $password = "";
 $dbname = "ContactList";
-$port = 3307;
 
-date_default_timezone_set('Europe/Dublin');
-
-// Creating the connection to the database
+// Connection Created
 $conn = mysqli_connect($servername, $username, $password, $dbname, $port);
 
 // Checking the connection 
