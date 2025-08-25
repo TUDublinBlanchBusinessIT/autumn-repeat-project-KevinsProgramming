@@ -2,14 +2,13 @@
 $servername = "localhost:3307";
 $username = "root";
 $password = "";
-$dbname = "ContactList";
+$dbname = "sswdr";
 
 // Connection Created
-$conn = mysqli_connect($servername, $username, $password, $dbname, $port);
+$conn = new mysqli($servername, $username, $password, $dbname);
 
 // Checking the connection 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-echo "Connected successfully";
 ?>
