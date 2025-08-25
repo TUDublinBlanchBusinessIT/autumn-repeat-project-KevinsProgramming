@@ -7,7 +7,7 @@ This repository contains two projects combined into one GitHub repo:
 - **SSWDR** (Server Side Web Development)  
   **How i did out my coding:**
 
-**dbcon.php** - initial connection error fix/Construction of code
+**dbcon.php** - Initial connection error fix/Construction of code
 
 - https://stackoverflow.com/questions/36849960/fatal-error-call-to-a-member-function-fetch-assoc-on-string
 
@@ -17,7 +17,15 @@ This repository contains two projects combined into one GitHub repo:
 
 - Combined it with this^ piece of coding to get it working
 
+**createDBV1.sql** - Setting up the DB + Connection 
 
+- https://www.w3schools.com/php/php_mysql_create_table.asp
+
+- https://www.geeksforgeeks.org/sql/sql-create-database/
+
+- https://www.geeksforgeeks.org/sql/create-a-table-if-it-doesn-t-exist-in-sql/
+
+- GeeksforGeeks and w3schools site helped me to create my sql
 
 
 
