@@ -27,7 +27,19 @@ This repository contains two projects combined into one GitHub repo:
 
 - GeeksforGeeks and w3schools site helped me to create my sql
 
+**index.html** - Html Basic page set up + CSS Styling + link to index.php + buttons
 
+- Sites below used to construct the index.html
+
+- https://www.w3schools.com/css/default.asp
+
+- https://www.w3schools.com/html/html_form_input_types.asp
+
+- https://www.w3schools.com/css/css3_buttons.asp
+
+- https://www.w3schools.com/html/html_links.asp
+
+- https://www.w3schools.com/html/html_forms.asp
 
 
 
