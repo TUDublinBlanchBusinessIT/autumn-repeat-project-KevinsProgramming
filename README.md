@@ -27,20 +27,6 @@ This repository contains two projects combined into one GitHub repo:
 
 - GeeksforGeeks and w3schools site helped me to create my sql
 
-**index.html** - Html Basic page set up + CSS Styling + link to index.php + buttons
-
-- Sites below used to construct the index.html
-
-- https://www.w3schools.com/css/default.asp
-
-- https://www.w3schools.com/html/html_form_input_types.asp
-
-- https://www.w3schools.com/css/css3_buttons.asp
-
-- https://www.w3schools.com/html/html_links.asp
-
-- https://www.w3schools.com/html/html_forms.asp
-
 **index.php** – fetch_assoc loop + delete link
 
 - https://www.w3schools.com/php/func_mysqli_fetch_assoc.asp
@@ -49,7 +35,7 @@ This repository contains two projects combined into one GitHub repo:
 
 - fetch_assoc loop above
 
--https://stackoverflow.com/questions/9139075/how-to-show-a-confirm-message-before-delete
+- https://stackoverflow.com/questions/9139075/how-to-show-a-confirm-message-before-delete
 
 - delete link above
 
