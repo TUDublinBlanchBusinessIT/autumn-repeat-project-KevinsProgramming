@@ -39,6 +39,11 @@ This repository contains two projects combined into one GitHub repo:
 
 - delete link above
 
+**delete_contact.php** – video
+
+- https://www.youtube.com/watch?v=siwoaqAhv3g&t=175s 
+
+
 - **WAF** (Web Application Frameworks)  
   Location on disk: `C:\laravel\waf`
 
