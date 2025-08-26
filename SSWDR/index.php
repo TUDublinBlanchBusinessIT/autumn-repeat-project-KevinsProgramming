@@ -11,6 +11,42 @@ $result = $conn->query("SELECT * FROM contacts");
 <head>
   <meta charset="UTF-8">
   <title>Contact List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 24px;
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 8px;
+    }
+    form {
+      margin: 16px 0;
+    }
+    input {
+      padding: 8px;
+      margin: 4px 8px 4px 0;
+    }
+    button, .btn {
+      padding: 8px 16px;
+      cursor: pointer;
+      background: #f0f0f0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      text-decoration: none;
+      color: black;
+      font-size: inherit;
+      font-family: inherit;
+    }
+    button:hover, .btn:hover {
+      background: #e0e0e0;
+    }
+    table {
+      border-collapse: collapse;
+      width: 55%;
+      margin: 20px auto; 
+    }
+  </style>
   </head>
 <body>
 <h1>Add Contact</h1>
