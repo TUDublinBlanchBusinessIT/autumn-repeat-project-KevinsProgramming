@@ -7,5 +7,3 @@ CREATE TABLE IF NOT EXISTS contacts (
     email VARCHAR(100) NOT NULL
 );
 
--- Create datebase - from GeeksforGeeks site
--- Create table from w3schools site
