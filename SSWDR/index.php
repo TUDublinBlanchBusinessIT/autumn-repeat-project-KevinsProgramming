@@ -74,8 +74,11 @@ $result = $conn->query("SELECT * FROM contacts");
     </tr>
     <?php while($row = $result->fetch_assoc()): ?>
     <tr>
-      <td><?php echo htmlspecialchars($row['name']); ?></td>
-      <td><?php echo htmlspecialchars($row['email']); ?></td>
+      <td><?php echo ($row['name']); ?></td>
+      <td><?php echo ($row['email']); ?></td>
+      <td>
+        <a class="delete" href="delete_contact.php?id=<?php echo $row['id']; ?>" onclick="return confirm('Are you sure you want to delete this contact?');">Delete</a>
+      </td>
     </tr>
     <?php endwhile; ?>
   </table>

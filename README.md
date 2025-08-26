@@ -41,7 +41,17 @@ This repository contains two projects combined into one GitHub repo:
 
 - https://www.w3schools.com/html/html_forms.asp
 
+**index.php** – fetch_assoc loop + delete link
 
+- https://www.w3schools.com/php/func_mysqli_fetch_assoc.asp
+
+- https://www.youtube.com/watch?v=cL-33dBkt-M
+
+- fetch_assoc loop above
+
+-https://stackoverflow.com/questions/9139075/how-to-show-a-confirm-message-before-delete
+
+- delete link above
 
 - **WAF** (Web Application Frameworks)  
   Location on disk: `C:\laravel\waf`
