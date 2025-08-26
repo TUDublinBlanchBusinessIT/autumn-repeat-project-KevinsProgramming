@@ -1,8 +1,7 @@
 <?php
 require 'dbcon.php';
 
-// Since the above code is connected to my dbcon.php
-// It connects up to my Db in laragon and gets all entries from there 
+// Coding here connects to dbcon.php - Retrieves entries
 $result = $conn->query("SELECT * FROM contacts");
 ?>
 
@@ -45,6 +44,19 @@ $result = $conn->query("SELECT * FROM contacts");
       border-collapse: collapse;
       width: 55%;
       margin: 20px auto; 
+    }
+     th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    a.delete {
+      color: red;
+      text-decoration: none;
+      font-weight: bold;
     }
   </style>
   </head>
