@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,8 +31,8 @@ button {
   cursor: pointer;
   font-family: inherit;
   font-size: inherit;
-  display: block;      /* makes button behave like inputs */
-  margin: 10px auto;   /* centers button */
+  display: block;      
+  margin: 10px auto;   
 }
 button:hover {
   background: #e0e0e0;
