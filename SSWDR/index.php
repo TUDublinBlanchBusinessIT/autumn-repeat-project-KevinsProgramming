@@ -62,18 +62,22 @@ $result = $conn->query("SELECT * FROM contacts");
   </head>
 <body>
 <h1>Add Contact</h1>
-<p>Fill in the fields below to save a contact!</p>
-
-  <form method="POST" action="add_contacts.php">
-    <input type="text"  name="name"  placeholder="Name"  required />
-    <input type="email" name="email" placeholder="Email" required />
-    <div class="btn-wrapper">
-      <button type="submit">Save</button>
-    </div>
-  </form>
-
   <p>
-    <a href="index.php" class="button">View All Contacts</a>  
+    <a href="add_contacts.php" class="btn">Add Contact</a>
   </p>
+
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Action</th>
+    </tr>
+    <?php while($row = $result->fetch_assoc()): ?>
+    <tr>
+      <td><?php echo htmlspecialchars($row['name']); ?></td>
+      <td><?php echo htmlspecialchars($row['email']); ?></td>
+    </tr>
+    <?php endwhile; ?>
+  </table>
 </body>
 </html>
