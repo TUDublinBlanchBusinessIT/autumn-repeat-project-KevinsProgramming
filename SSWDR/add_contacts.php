@@ -1,3 +1,20 @@
+<?php
+require 'dbcon.php';
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name  = $_POST['name'];
+    $email = $_POST['email'];
+
+    $sql = "INSERT INTO contacts (name, email) VALUES ('$name', '$email')";
+
+    if ($conn->query($sql) === TRUE) {
+        echo "<p style='color: green; text-align: center;'>Contact saved successfully!</p>";
+
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+}
+?>
 
 <!DOCTYPE html>
 <html>
