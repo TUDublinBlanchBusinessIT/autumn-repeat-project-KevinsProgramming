@@ -43,6 +43,25 @@ This repository contains two projects combined into one GitHub repo:
 
 - https://www.youtube.com/watch?v=siwoaqAhv3g&t=175s 
 
+**add_contacts.php** - php at the top of page
+
+- https://stackoverflow.com/questions/10943060/isset-postsubmit-vs-serverrequest-method-post
+
+- https://www.youtube.com/watch?v=gUO56GK0O40
+
+- https://www.w3schools.com/php/php_echo_print.asp
+
+- https://www.w3schools.com/php/php_mysql_select.asp
+
+**Other Sources** 
+
+- https://www.youtube.com/watch?v=3xRMUDC74Cw
+
+- https://www.youtube.com/watch?v=I-YuuFxZcdk
+
+- https://www.youtube.com/watch?v=gUO56GK0O40
+
+
 
 - **WAF** (Web Application Frameworks)  
   Location on disk: `C:\laravel\waf`
