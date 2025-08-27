@@ -61,6 +61,7 @@ This repository contains two projects combined into one GitHub repo:
 
 - https://www.youtube.com/watch?v=gUO56GK0O40
 
+- https://www.kodingmadesimple.com/2015/08/delete-data-from-mysql-with-confirmation-message-in-php.html
 
 
 - **WAF** (Web Application Frameworks)  
