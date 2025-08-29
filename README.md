@@ -12,7 +12,7 @@ This repository contains two projects combined into one GitHub repo:
 
 - You can view this contact list and it wont be deleted unless you decide to delete a conatct.
 
-- There are buttons which can direct you to and from each page so with the front page you can go to the entirety of contacts you have added and on that page, it displays names, emails and a delte button. There is a button which allows you to return to the original page where you can continue to contacts if you's like!
+- There are buttons which can direct you to and from each page.  With the front page, there is a button which allows you to view the entirety of contacts you have added. On that page, it displays names, emails and a delete button. There is also button which allows you to return to the original page where you can continue to add contacts if you'dS like!
 
 
 
