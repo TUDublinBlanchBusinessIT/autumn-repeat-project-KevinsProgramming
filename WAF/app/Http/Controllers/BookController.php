@@ -3,63 +3,55 @@
 namespace App\Http\Controllers;
 
 use App\Models\Book;
+use App\Models\Author;
 use Illuminate\Http\Request;
 
 class BookController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
-    public function index()
-    {
-        //
+    public function index() {
+        $books = Book::with('author')->latest()->paginate(10);
+        return view('books.index', compact('books'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
-    {
-        //
+    public function create() {
+        $authors = Author::orderBy('name')->get();
+        return view('books.create', compact('authors'));
     }
 
-    /**
-     * Store a newly created resource in storage.
-     */
-    public function store(Request $request)
-    {
-        //
+    public function store(Request $request) {
+        $data = $request->validate([
+            'author_id' => 'required|exists:authors,id',
+            'title' => 'required|string|max:255',
+            'published_year' => 'nullable|integer|min:0|max:'.date('Y'),
+            'pages' => 'nullable|integer|min:1|max:5000',
+        ]);
+        Book::create($data);
+        return redirect()->route('books.index')->with('success','Book created.');
     }
 
-    /**
-     * Display the specified resource.
-     */
-    public function show(Book $book)
-    {
-        //
+    public function show(Book $book) {
+        $book->load('author');
+        return view('books.show', compact('book'));
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(Book $book)
-    {
-        //
+    public function edit(Book $book) {
+        $authors = Author::orderBy('name')->get();
+        return view('books.edit', compact('book','authors'));
     }
 
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request, Book $book)
-    {
-        //
+    public function update(Request $request, Book $book) {
+        $data = $request->validate([
+            'author_id' => 'required|exists:authors,id',
+            'title' => 'required|string|max:255',
+            'published_year' => 'nullable|integer|min:0|max:'.date('Y'),
+            'pages' => 'nullable|integer|min:1|max:5000',
+        ]);
+        $book->update($data);
+        return redirect()->route('books.index')->with('success','Book updated.');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(Book $book)
-    {
-        //
+    public function destroy(Book $book) {
+        $book->delete();
+        return redirect()->route('books.index')->with('success','Book deleted.');
     }
 }
