@@ -8,12 +8,15 @@ This repository contains two projects combined into one GitHub repo:
 
 **What my project does**
 
-- I created contact list page where peole can insert a persons name and email and it'll be stored into the db. 
+- I created a contact list page where people can insert a persons name and email and it'll be stored in the database.
 
-- You can view this contact list and it wont be deleted unless you decide to delete a conatct.
+- You can view this contact list and it wont be deleted unless you decide to. You can delete contacts by pressing the delete button on the view contacts page. 
 
-- There are buttons which can direct you to and from each page.  With the front page, there is a button which allows you to view the entirety of contacts you have added. On that page, it displays names, emails and a delete button. There is also button which allows you to return to the original page where you can continue to add contacts if you'd like!
+- There are buttons which can navigate you betweem the main page, which is where you can insert the contacts and view contacts list page, where you can view all contacts + delete a contact. 
 
+- On the main page, you will see 2 fields and 2 buttons. For the 2 fields, you will see name and email. For the 2 buttons, you will see save and view contacts list.
+
+- On the view contacts list page, it displays all the contacts. On that page, it displays names, emails and a delete button. There is also button which allows you to return to the original page where you can continue to add contacts if you'd like!
 
 
 **How i did out my coding:**
@@ -76,10 +79,56 @@ This repository contains two projects combined into one GitHub repo:
 
 
 - **WAF** (Web Application Frameworks)  
-  Location on disk: `C:\laravel\waf`
 
-## 🔧 Notes
-- The projects stay in their original locations on disk, but are included in this repository via junctions.
-- Work on either project will be tracked in this single repo.
+**What my project does**
+
+- I built a library management system which is built with laravel. It allows you to add authors and books.
+
+-It has the full CRUD (create, read, update, delete) function and allows for flexible usage of each entry.
+
+- The relationshop I built is a one to many relationship with the author being 1 and it having many books.
+
+- you can create a good amount of books and authors and they will display on the main page. 
+
+- Edit, delete, add, save, cancel are all buttons which are displayed on their respective pages. 
+
+**How i did out my coding:**
+
+- https://www.youtube.com/watch?v=cDEVWbz2PpQ
+
+- https://www.youtube.com/watch?v=NqP0-UkIQS4
+
+- https://www.youtube.com/watch?v=Ydogcs6ImLw
+
+
+##  A.I review on my Web Apps Project
+
+**Overview**
+
+- A.I was very useful for my web apps project as I ran into a lot of issues in the begining phases of my project. I had issues with my .env file, php artisan migrate not working, cache file not allowing permission for laravel to use, etc. When one issue was solved, another one came up. I did use A.I to help me solve these issues and the A.I i used would be the following:
+
+- Chat GPT
+
+- Deepseek
+
+- In my personal opinion, the A.I that i found to be the most helpful and time effiecient would be deepseek.
+
+- Deepseek helped me to fix the errors that were occuring that i couldnt exaclty figure out on my own or through youtube. 
+
+**Comparative analysis** 
+
+- Chat GPT: Although Chat GPT is useful, it stalled my project progress atleast 4/5 days due to it regurgitating the same solutions that donT work and the time restrictions to use chat gpt. Was a little bit frustrating when it would tell me to do something to fix an error only for that solution to cause yet another error which i didnt anticipate. 
+
+- Deepseek: My experience with deepseek was much better and much more fluent in terms of progress and fixing my issues. Helped me get right down to the core of the issue, was faster and didnt have time restrictions for how much I could use it. 
+
+**Conclusion**
+
+- In my personal opinion, deepseek was a great experience for me to you and helped meto fix all the major errors I had in the beginning. If i had known sooner that deepseek was much more efficient at solving my problems, i wouldve used it sooner. 
+
+
+
+
+
+
 
 
