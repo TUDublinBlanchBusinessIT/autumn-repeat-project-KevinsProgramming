@@ -84,7 +84,7 @@ This repository contains two projects combined into one GitHub repo:
 
 - I built a library management system which is built with laravel. It allows you to add authors and books.
 
--It has the full CRUD (create, read, update, delete) function and allows for flexible usage of each entry.
+- It has the full CRUD (create, read, update, delete) function and allows for flexible usage of each entry.
 
 - The relationshop I built is a one to many relationship with the author being 1 and it having many books.
 
@@ -111,19 +111,19 @@ This repository contains two projects combined into one GitHub repo:
 
 - Deepseek
 
-- In my personal opinion, the A.I that i found to be the most helpful and time effiecient would be deepseek.
+- In my personal opinion, the A.I that i found to be the most helpful and time efficient would be deepseek.
 
 - Deepseek helped me to fix the errors that were occuring that i couldnt exaclty figure out on my own or through youtube. 
 
 **Comparative analysis** 
 
-- Chat GPT: Although Chat GPT is useful, it stalled my project progress atleast 4/5 days due to it regurgitating the same solutions that donT work and the time restrictions to use chat gpt. Was a little bit frustrating when it would tell me to do something to fix an error only for that solution to cause yet another error which i didnt anticipate. 
+- Chat GPT: Although Chat GPT is useful, it stalled my project progress by atleast 4/5 days due to it regurgitating the same solutions that donT work and the time restrictions to use chat gpt. Was a little bit frustrating when it would tell me to do something to fix an error only for that solution to cause yet another error which i didnt anticipate. 
 
 - Deepseek: My experience with deepseek was much better and much more fluent in terms of progress and fixing my issues. Helped me get right down to the core of the issue, was faster and didnt have time restrictions for how much I could use it. 
 
 **Conclusion**
 
-- In my personal opinion, deepseek was a great experience for me to you and helped meto fix all the major errors I had in the beginning. If i had known sooner that deepseek was much more efficient at solving my problems, i wouldve used it sooner. 
+- In my personal opinion, deepseek was a great experience for me to use and helped meto fix all the major errors I had in the beginning. If i had known sooner that deepseek was much more efficient at solving my problems, i wouldve used it sooner. 
 
 
 
