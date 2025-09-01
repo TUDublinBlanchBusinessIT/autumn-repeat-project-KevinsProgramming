@@ -123,7 +123,7 @@ This repository contains two projects combined into one GitHub repo:
 
 **Conclusion**
 
-- In my personal opinion, deepseek was a great experience for me to use and helped meto fix all the major errors I had in the beginning. If i had known sooner that deepseek was much more efficient at solving my problems, i wouldve used it sooner. 
+- In my personal opinion, deepseek was a great experience for me to use and helped me to fix all the major errors I had in the beginning. If i had known sooner that deepseek was much more efficient at solving my problems, i wouldve used it sooner. 
 
 
 
